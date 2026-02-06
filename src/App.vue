@@ -1,15 +1,19 @@
 <template>
   <div>
-    <h1 class="text-3xl font-bold text-center text-red-600   ">Weather App</h1>
-    <RouterView />
+    <Navbar />
+    <Hero title="test title" subtitle="Test Subtitle" />
+    <HomeCards />
+    <JobListings />
+
   </div>
 </template>
 
 <script setup>
-import { RouterView } from 'vue-router'
- 
+
+import Navbar from './components/Navbar.vue'
+import Hero from './components/Hero.vue';
+import HomeCards from './components/HomeCards.vue';
+import JobListings from './components/JobListings.vue';
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
