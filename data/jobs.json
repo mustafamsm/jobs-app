@@ -97,20 +97,6 @@
         "contactEmail": "zypygyw@mailinator.com",
         "contactPhone": "+1 (924) 847-5456"
       }
-    },
-    {
-      "id": "ce15",
-      "title": "Macon Frederick",
-      "type": "Internship",
-      "description": "Laborum Ullam imped",
-      "salary": "$125K - $150K",
-      "location": "Deserunt aliquam in ",
-      "company": {
-        "name": "Hood and Fowler Plc",
-        "description": "Tempora explicabo H",
-        "contactEmail": "nelixih@mailinator.com",
-        "contactPhone": "+1 (175) 979-7552"
-      }
     }
   ]
 }
