@@ -17,7 +17,7 @@
                                 :class="[isActiveLink('/jobs') ? 'bg-green-900' : 'hover:bg-green-900 hover:text-white', 'text-white', 'px-3', 'rounded-md', 'py-2']">
                                 Jobs
                             </RouterLink>
-                            <RouterLink to="/jobs/add"
+                            <RouterLink to="/add/job"
                                 :class="[isActiveLink('/jobs/add') ? 'bg-green-900' : 'hover:bg-green-900 hover:text-white', 'text-white', 'px-3', 'rounded-md', 'py-2']">
                                 Add Job
                             </RouterLink>
