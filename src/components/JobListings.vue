@@ -39,7 +39,7 @@ const state = reactive({
 })
 onMounted(async () => {
     try {
-        const response = await fetch('http://localhost:3000/jobs')
+        const response = await fetch('/api/jobs')
             .then((res) => res.json())
             .then(data => {
                 state.jobs = data
