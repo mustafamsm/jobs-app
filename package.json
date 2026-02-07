@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server  ./data/jobs.json "
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.5",
+    "primeicons": "^7.0.0",
     "vue": "^3.5.27",
-    "vue-router": "^5.0.1"
+    "vue-router": "^5.0.1",
+    "vue-spinner": "^1.0.4"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",
